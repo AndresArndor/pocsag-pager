@@ -20,3 +20,4 @@ bin-release/
 547787
 .page_weather.sh.swp
 send-pocsag-playbook.retry
+.send-pocsag-playbook.yaml.swp
