@@ -1,0 +1,8 @@
+---
+- name: transmit something to pager
+  hosts: transmitters
+  tasks:
+  - name: date to pager
+    script: page_date.sh  # sudo RemoteCommand 7642 page 1234567 "R4CHD, testing, `date`" 
+  - name: weather to pager
+    script: page_weather.sh 
