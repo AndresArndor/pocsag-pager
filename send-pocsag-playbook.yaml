@@ -4,5 +4,7 @@
   tasks:
   - name: date to pager
     script: page_date.sh  # sudo RemoteCommand 7642 page 1234567 "R4CHD, testing, `date`" 
+    tags: test
   - name: weather to pager
     script: page_weather.sh 
+    tags: weather
