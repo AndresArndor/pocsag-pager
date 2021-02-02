@@ -9,5 +9,5 @@
     script: page_weather.sh 
     tags: weather
   - name: sunset to pager
-    script: page_sun.sh 
+    script: page_sunset.sh 
     tags: sunset
