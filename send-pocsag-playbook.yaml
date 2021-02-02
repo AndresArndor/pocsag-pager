@@ -8,3 +8,6 @@
   - name: weather to pager
     script: page_weather.sh 
     tags: weather
+  - name: sunset to pager
+    script: page_sun.sh 
+    tags: sunset
